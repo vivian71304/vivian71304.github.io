@@ -156,12 +156,12 @@ if (reversed == null) { reversed = false; }
 
 	// 圖層_1
 	this.instance = new lib.書();
-	this.instance.setTransform(173.7,259.65,1,1,0,0,0,150.3,244.1);
+	this.instance.setTransform(173.5,257.6,1,1,0,0,0,150.3,244.1);
 
 	this.instance_1 = new lib.Image();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(20));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(22));
 
 	this._renderFirstFrame();
 
@@ -176,7 +176,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/頁面飛翔_atlas_1.png?1732519861295", id:"頁面飛翔_atlas_1"}
+		{src:"images/頁面飛翔_atlas_1.png?1732520204850", id:"頁面飛翔_atlas_1"}
 	],
 	preloads: []
 };
